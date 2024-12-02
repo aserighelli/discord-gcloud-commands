@@ -5,7 +5,7 @@ const compute = new Compute();
 
 const USER_ROLE_ID = process.env.USER_ROLE_ID || '789184783942549545';
 const MANAGER_ROLE_ID = process.env.MANAGER_ROLE_ID || '789078608236511252';
-const DEFAULT_COMPUTE_ZONE = process.env.DEFAULT_COMPUTE_ZONE || 'us-west2-a';
+const DEFAULT_COMPUTE_ZONE = process.env.DEFAULT_COMPUTE_ZONE || 'southamerica-east1-a';
 
 const PRESENT_VERBS = {
   start: "Starting",
